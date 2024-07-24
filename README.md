@@ -28,7 +28,7 @@ and add your key to this file using a text editor (e.g, vim). See cdsapirc_examp
 Once this is done, you are ready to adjust my example scripts and download the data.
 ## Run the scripts
 
-Once the scripts is adjusted (e.g, you selected the years, months, days, variables, etc.) you can proceed with running the script using the bash file 'submit_era5_downloads.sh'. Please note that you can adjust the time required for your download, depending on the size of the dataset. Please ensure the paths in ALL your files are changed to your own.
+Once the python script is adjusted (e.g, you selected the years, months, days, variables, etc.) you can proceed with running the script using the bash file 'submit_era5_downloads.sh'. Please note that you can adjust the time required for your download, depending on the size of the dataset. Please ensure the paths in ALL your files are changed to your own.
 
 You can now proceed with 
 ```
