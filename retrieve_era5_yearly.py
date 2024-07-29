@@ -33,10 +33,15 @@ def retrieve_interim(year):
             startMonth = '%02d' % month
             startDay = '%02d' % day
             target = os.path.join(target_month_dir, "%04d%02d%02d.nc" % (year, month, day))
+            
 
-            interim_request(startYear, startMonth, startDay, target)
-            f.write(startYear + startMonth + startDay)
-            f.write('\n')
+            if not os.path.exists(target):
+                interim_request(startYear, startMonth, startDay, target)
+                f.write(startYear + startMonth + startDay)
+                f.write('\n')
+
+            else:
+                print(f"File {target} already exists. Skipping request.")
 
 def interim_request(startYear, startMonth, startDay, target):
     """
