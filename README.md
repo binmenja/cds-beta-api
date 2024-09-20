@@ -6,7 +6,7 @@
 
 ## Appendix
 
-Please be aware that this method will only work on Cedar cluster if you are using Alliance Canada clusters. This is because cedar is the only cluster with its nodes connected to the internet.
+Please be aware that this method will only work on Cedar cluster if you are using Alliance Canada clusters. This is because cedar is the only cluster with its compute nodes connected to the internet.
 
 
 
